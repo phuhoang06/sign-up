@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sở thích của bạn</title>
+    <style>
+        body {
+            background-color: #e0f7fa;
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        h2 {
+            background-color: #ff5722;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="textb"], input[type="email"] {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        .checkbox-group {
+            margin: 5px 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .checkbox-group label {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 5px;
+        }
+        .button-group {
+            margin-top: 5px;
+            text-align: center;
+        }
+        input[type="submit"], input[type="reset"] {
+            padding: 3px 8px;
+            margin: 3px;
+            background-color: #ccc;
+            border: none;
+            border-radius: 1px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #ff5722;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>SỞ THÍCH CỦA BẠN</h2>
+    <form action="form_don_gian.html" method="post">
+        Họ và tên <br> <input type="textbox" name="yourname" ><br>
+        Email <br> <input type="textbox" name="email"><br>
+        Sở thích<br>
+        <input type="checkbox" name="hobby" >thể thao
+        <input type="checkbox" name="hobby" >âm nhạc
+        <input type="checkbox" name="hobby" >đọc sách<br>
+        <input type="checkbox" name="hobby" >lướt web
+        <input type="checkbox" name="hobby" >chơi game<br>
+        <input type="checkbox" name="hobby" >du lịch
+        <input type="checkbox" name="hobby" >điện ảnh
+
+    </input>
+
+
+
+
+
+        <div class="button-group">
+            <input type="submit" value="Gửi thông tin">
+            <input type="reset" value="Nhập lại">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
